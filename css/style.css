@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html,
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.btn-theme {
+    background-color: #FF004D;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    background-color: #FF004D;
+    box-shadow: 0px 0px 0px 4px rgba(255, 0, 70, 0.5),
+        0px 0px 0px 7px rgba(255, 0, 70, 0.2);
+}
+
+
+#main-home .header-top .item a {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-home .header-top .item a:hover {
+    color: #FF004D;
+}
+
+.bg-pink {
+    background: #FF004D;
+    cursor: pointer;
+}
+
+.color-pink {
+    color: #FF004D;
+
+}
+
+#main-home .navbar .cart-icon {
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#main-home .navbar .nav-item {
+    padding: 0 15px;
+}
+
+
+#main-home .navbar .nav-item .nav-link {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+#main-home .navbar .nav-item .nav-link:hover {
+    color: #FF004D;
+}
+
+@media only screen and (max-width:580px) {
+    #main-home .header-top {
+        flex-direction: column;
+    }
+
+}
